@@ -1,10 +1,9 @@
 import Routes from "./src/routes";
+import RoutesAuth from "./src/routesAuth";
+
+const isUserAuth = true;
 
 
 export default function App() {
-
-  return (<>
-      <Routes/>
-    </>
-  );
+  return isUserAuth ? <RoutesAuth/> : <Routes/>
 }
