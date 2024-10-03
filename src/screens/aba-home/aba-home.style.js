@@ -14,11 +14,13 @@ export const styles = {
     },
     logo: {
         width: 140,
-        height: 27
+        height: 27,
+
     },
     cart: {
         width: 30,
-        height: 30
+        height: 30,
+        color: COLORS.dark_gray,
     },
     busca: {
         marginBottom: 10

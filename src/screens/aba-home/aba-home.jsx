@@ -1,5 +1,5 @@
 import { Image, View, Text, ScrollView } from "react-native";
-import { styles } from "./home.style.js";
+import { styles } from "./aba-home.style.js";
 import icons from "../../constants/icons.js";
 import { SafeAreaView } from "react-native-safe-area-context";
 import TextBox from "../../components/textbox/textbox.jsx";
@@ -8,15 +8,21 @@ import Categorias from "../../components/categorias/categorias.jsx";
 import { categorias, banners, restaurantes } from "../../constants/dados.js";
 import Banners from "../../components/banners/banners.jsx";
 import Restaurante from "../../components/restaurante/restaurante.jsx";
+import Icon from 'react-native-vector-icons/FontAwesome';
 
-function Home() {
+function AbaHome(props) {
+
+    function OpenCardapio() {
+        props.navigation.navigate("cardapio");
+    }
 
     const [busca, setBusca] = useState("");
 
     return <SafeAreaView style={styles.container}>
         <View style={styles.headerBar}>
             <Image source={icons.logo} style={styles.logo} />
-            <Image source={icons.cart} style={styles.cart} />
+            {/* <Image source={icons.cart} style={styles.cart} /> */}
+            <Icon name="shopping-cart" size={30} style={styles.cart}/>
         </View>
 
         <View style={styles.busca}>
@@ -37,7 +43,9 @@ function Home() {
                         <Restaurante logotipo={restaurante.logotipo}
                             nome={restaurante.nome}
                             endereco={restaurante.endereco}
-                            icone={icons.heartFull} />
+                            icone={icons.heartFull} 
+                            onPress={OpenCardapio}   
+                        />
                     </View>
                 })
             }
@@ -47,4 +55,4 @@ function Home() {
     </SafeAreaView>
 }
 
-export default Home;
+export default AbaHome;

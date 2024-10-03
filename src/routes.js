@@ -3,20 +3,15 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from './screens/login/login';
 import Registro from './screens/registro/registro';
 import Registro2 from './screens/registro2/registro2';
-import Busca from './screens/busca/busca';
 
 const Stack = createNativeStackNavigator();
 
 function Routes() {
   return <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name="busca" component={Busca} options={{ 
-                headerShadowVisible: false,
-                title: "Resultados da busca",
-                headerTitleAlign: "center",
+            <Stack.Screen name="login" component={Login} options={{ 
+                headerShown: false 
             }} />
-
-            <Stack.Screen name="login" component={Login} options={{ headerShown: false }} />
 
             <Stack.Screen name="registro" component={Registro} options={{ 
                 headerShadowVisible: false,
