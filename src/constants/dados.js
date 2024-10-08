@@ -209,13 +209,6 @@ export const restaurante = {
             categoria: "Mais Pedidos",
             itens: [
                 {
-                    idProduto: 1,
-                    nome: "Pizza Banana",
-                    descricao: "Massa artesanal, banana ",
-                    valor: 15.00,
-                    foto: require("../assets/produto-pizza.png")
-                },
-                {
                     idProduto: 3,
                     nome: "Pizza Mussarela",
                     descricao: "Massa artesanal, mussarela e calabresa",
@@ -230,6 +223,38 @@ export const restaurante = {
                     foto: require("../assets/produto-coca.png")
                 }
             ]
+        }
+    ]
+};
+
+export const pedido = {
+    id: 1,
+    nome: "Churrascaria e Pizzaria Boizão",
+    endereco: "Alameda Santos, 954",
+    status: "Entregue",
+    dt_pedido: "10/05/2024",
+    vl_total: 66.00,
+    logotipo: require("../assets/restaurante1.png"),
+    itens: [
+        {
+            idItem: 1,
+            idProduto: 1,
+            nome: "Pizza Calabresa",
+            descricao: "Massa artesanal, mussarela e calabresa",
+            foto: require("../assets/produto-pizza.png"),
+            qtd: 2,
+            vlUnitario: 30.00,
+            vlTotal: 60.00
+        },
+        {
+            idItem: 2,
+            idProduto: 2,
+            nome: "Coca-Cola Lata",
+            descricao: "Coca-Cola lata de 300ml trincando de gelada",
+            foto: require("../assets/produto-coca.png"),
+            qtd: 1,
+            vlUnitario: 6.00,
+            vlTotal: 6.00
         }
     ]
 };
