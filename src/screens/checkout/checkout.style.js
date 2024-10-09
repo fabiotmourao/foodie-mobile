@@ -25,4 +25,7 @@ export const styles = {
         fontSize: FONT_SIZE.md,
         fontWeight: 'bold'
     },
+    containerBtn: {
+        marginTop: 20,
+    }
 }

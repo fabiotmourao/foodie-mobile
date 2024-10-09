@@ -8,4 +8,5 @@ Aulas App Delivery com React Native :
 7  - Assitidas
 8  - Assitidas
 9  - Assitidas
-10 - https://www.youtube.com/watch?v=EIMDIY_2W8Q&list=PLHe2sq9OVDmwcJ_3oB_sVDoZcPjUxOLYt&index=10
+10 - Assitidas
+11 - https://www.youtube.com/watch?v=ifQCZi_UBYQ&list=PLHe2sq9OVDmwcJ_3oB_sVDoZcPjUxOLYt&index=11
