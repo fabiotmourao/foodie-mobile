@@ -1,12 +1,12 @@
 Aulas App Delivery com React Native :
-1  - Assitidas 
-2  - Assitidas
-3  - Assitidas
-4  - Assitidas
-5  - Assitidas
-6  - Assitidas
-7  - Assitidas
-8  - Assitidas
-9  - Assitidas
-10 - Assitidas
-11 - https://www.youtube.com/watch?v=ifQCZi_UBYQ&list=PLHe2sq9OVDmwcJ_3oB_sVDoZcPjUxOLYt&index=11
+1  - Aula Assitida 
+2  - Aula Assitida
+3  - Aula Assitida
+4  - Aula Assitida
+5  - Aula Assitida
+6  - Aula Assitida
+7  - Aula Assitida
+8  - Aula Assitida
+9  - Aula Assitida
+10 - Aula Assitida
+11 - Aula Assitida
